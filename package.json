@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@types/node": "^17.0.8",
+    "aws-sdk": "^2.1053.0",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.4"
+  },
+  "name": "upload-s3-cloudkilat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "ts-node": "^10.4.0"
+  },
+  "scripts": {
+    "build": "tsc --project ./",
+    "start": "node ./build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
